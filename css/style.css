@@ -1,0 +1,753 @@
+/*******************************
+ global css section
+********************************/
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*******************************
+ header section css start from here
+********************************/
+header{
+	width: 100%;
+	background-color: #000;
+	padding:10px 0px;
+}
+.nav-link{
+	color: #a7a7a7 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #fff !important;
+}
+/*******************************
+ header section css end here
+********************************/
+
+/*******************************
+ banner section css start from here
+********************************/
+.banner{
+	width: 100%;
+	background-image: url('../image/bannerbg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner-text{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	width: 85%;
+	color: #fff;
+	margin:28px 0px;
+}
+.banner-text .line{
+	height: 2px;
+	width: 72px;
+	background-color: white;
+}
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #929394;
+    width: 75%;
+    margin: 28px 0px;
+}
+.banner-text button{
+	padding:10px 30px;
+	background-color: transparent;
+	border:1px solid white;
+	color: white;
+	margin-top: 15px;
+}
+.banner-text button:hover{
+	color: black;
+	background:white;
+}
+
+.banner-form{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-form .card{
+	border: 0 !important;
+}
+.banner-form .card-header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color:#333333;
+	text-align: center;
+	margin: 0px;
+}
+.banner-form .card-header h2 span{
+	color:#ff8b38;
+}
+.banner-form .card-body{
+	padding: 1rem 2rem !important;
+}
+.banner-form .card-body input{
+	width: 100%;
+	margin: 18px 0px;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 6px;
+	padding-left: 12px;
+}
+.banner-form .card-body input[type=password]{
+	margin-bottom: 24px;
+}
+
+.banner-form .card-body input:focus{
+	outline: none;
+}
+.banner-form .card-footer input:focus{
+	outline: none;
+}
+
+.banner-form .card-body input::placeholder{
+	color:#cccccc;
+}
+.banner-form .card-header{
+	padding:1.5rem 1rem;
+}
+.banner-form .card-footer{
+padding: 0;
+background-color: #ff9b51;
+}
+.banner-form .card-footer input{
+	width: 100%;
+	height: 60px;
+	border: none;
+	background-color: #ff9b51;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+
+/*******************************
+  banner section css end here
+********************************/
+/*******************************
+  social media section css start from here
+********************************/
+
+
+.social-media{
+	width: 100%;
+	box-shadow: 0px 0px 10px 0px;
+	padding:5px 0px;
+	margin-bottom: 2px;
+}
+
+.social-media h4{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 22px;
+	 font-weight: 900;
+	 margin-top: 1.5rem;
+	 margin-bottom: .5rem;
+	 color: #333333;
+}
+.social-media p{
+	width: 107%;
+	font-family: 'Open Sans', sans-serif;
+	color: #a9aaac;
+	font-size: 14px;
+}
+.media-icons{
+	height:18vh;
+	display: table-cell;
+	vertical-align: middle;
+    box-shadow: 2px;
+}
+.media-icons ul li{
+      display: inline-block;
+} 
+.media-icons ul li a i{
+              padding:0px 20px;
+              color: #cccccc;
+}
+
+.media-icons ul li a i:hover{
+	color:tomato;
+}
+
+
+/*******************************
+  social meida section css end here
+********************************/
+
+/*******************************
+  service section css start from here
+********************************/
+.services{
+	width: 100%;
+	padding:80px 0px;
+	background-color: #f5f5f5;
+}
+.services ul li{
+	list-style: none;
+	background-color: #ff8b38;
+	margin-bottom: 2px;
+	height: 84px;
+	width: 90px;
+	line-height: 84px;
+	text-align: center;
+}
+.services ul li a{
+	color: white;
+
+}
+.services .tab1{
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.services .tab3{
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.tab2,.tab3{
+	background-color: #333333 !important;
+}
+.services .service-middle {
+	width: 78%;
+}
+
+.services .service-middle h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	margin-bottom: 33px;
+}
+.services .service-middle p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    color: #a6a7a9;
+  }
+
+.services .service-middle button{
+    color:white;
+    background-color:#ff8b38;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+
+/*******************************
+  service section css end here
+********************************/
+/*******************************
+  sub list section  css start from here
+********************************/
+.sub-list{
+	margin-top: 50px;
+}
+.sub-list img{
+	margin-top: 60px;
+}
+.title-1, .title-2{
+	display: flex;
+	flex-direction: row;
+}
+.sub-list .col-md-6 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-weight: 16px;
+	margin-top: 40px;
+}
+.sub-list .col-md-6 .line{
+	height: 3px;
+	width: 75px;
+	background-color: #ff8b38;
+    margin: 20px 0px;
+}
+.sub-list .sub-list-text p{
+	font-family: 'Open Sans', sans-serif;
+	color: #c8c9ca;
+	margin:20px 0px;
+}
+.sub-list i{
+	color: #ff8b38;
+	padding:8px;
+	margin-right: 40px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+}
+.sub-list .title-text h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 6px;        
+}
+.sub-list .title-1{
+	margin-bottom: 15px;
+}
+
+.sub-list .title-text p{
+	font-family: 'Open Sans', sans-serif;
+	color: #c8c9ca;
+	font-size: 14px;
+}
+
+
+
+/*******************************
+  sub list  section css end here
+********************************/
+/*******************************
+  std picture section css start from here
+********************************/
+.std-picture{
+	background-color: #f5f5f5;
+	margin-top: 70px;
+	padding-bottom: 70px;
+}
+.std-picture h4{
+	margin-top: 80px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+.std-picture .line{
+	height: 2px;
+	width: 63px;
+	background-color:  #ff8b38;
+	margin: 25px 0px;
+}
+.std-picture p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	width: 99%;
+	margin-bottom: 30px; 
+}
+.std-picture span{
+    font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	width: 99%;
+
+}
+.std-picture img{
+	margin-top: 70px;
+}
+
+/*******************************
+  std picture  section css end here
+********************************/
+
+/*******************************
+  about us  section css start from here
+********************************/
+.about-us{
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+	padding-bottom: 80px;
+}
+.about-us h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #212121;
+}
+.about-us .line{
+	height: 2px;
+	width: 63px;
+	background-color:  #ff8b38;
+	margin: 25px auto;
+
+}
+
+.about-us h6{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+	margin-bottom: 80px;
+}
+.about-us i{
+	margin: 0 auto 10px;
+    font-size: 28px;
+    color: #ff8b38;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+}
+.about-us h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+	margin: 20px 0px;
+}
+
+.about-us p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+}
+/*******************************
+ about us  section css end here
+********************************/
+
+
+/*******************************
+ pricing section css start from here
+********************************/
+.pricing{
+	width: 100%;
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 70px 0px;
+}
+
+.pricing .heading-top h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40;
+
+}
+.pricing .heading-top .line{
+	height: 2px;
+	width: 63px;
+	background-color:  #ff8b38;
+	margin: 25px auto;
+}
+.pricing .heading-top p{
+          font-family: 'Open Sans', sans-serif;
+          color: #86878b;
+          margin-bottom: 100px;
+}
+.pricing .m-60 .price-head{
+	background-color: #333333;
+    border-bottom: 1px solid #F5F5F5;
+ }
+.pricing .m-60 .price-head p{
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 800;
+          font-size: 16px;
+          color: #ffffff;
+          padding:15px 0px;
+          margin-bottom: 0px;
+}
+.pricing .m-60 .price-body{
+	color: #FFFFFF;
+    background-color: #333333;
+    border-bottom: 5px solid #FF8B38;
+    padding: 25px 0px;
+}
+.pricing .m-60 .price-service{
+	color: #86878B;
+    background-color: #FFFFFF;
+}
+.pricing .m-60 ul{
+	padding-left: 0;
+}
+
+.pricing .m-60 ul li{
+            list-style: none;
+            font-family: 'Open Sans', sans-serif;
+			border-bottom: 2px solid #F5F5F5;
+		    padding: 10px 0px;
+}
+.pricing .m-60 .price-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #959595;
+	padding: 0px;
+}
+.pricing .m-60 .price-body span{
+	font-family: 'Raleway', sans-serif !important;
+	font-size: 90px;
+	font-weight: 600;
+}
+.pricing .m-60{
+     align-items: flex-end;
+
+}
+.pricing .table1, .table2, .table3{
+	margin: 0px 12px;
+}
+.pricing .table2 .price-body{
+	padding: 0px;
+	margin:0px;
+	border: none;
+
+}
+.pricing .table2 .price-topbody{
+         padding: 25px 0px;
+
+}
+
+.pricing .table2 .price-midbody{
+	background-color: #ff8b38;
+	padding: 11px 0px;
+}
+
+.pricing .table2 .price-midbody h6{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+}
+/*******************************
+ pricing section css end here
+********************************/
+
+
+
+
+/*******************************
+ customer feedback section css start from here
+********************************/
+.customer-feedback{
+	width: 100%;
+	text-align: center;
+	padding: 70px 0px;
+}
+.customer-feedback .feed-up h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #212121;
+}
+.customer-feedback .feed-up .line{
+	height: 2px;
+	width: 63px;
+	background-color:  #ff8b38;
+	margin:25px auto;
+}
+.customer-feedback .feed-up p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #86878b;
+	margin-bottom: 40px;
+	
+}
+.customer-feedback .feed-box .message{
+ 	background-color: #f5f5f5;
+ 	padding: 20px 12px 20px 12px;
+ 	text-align: left;
+ 	position: relative;
+ 	
+	font-family: 'Open Sans', sans-serif;
+ 	color: grey;
+ 	font-size: 14px;
+ 	font-style: italic;
+ 	margin:0px 10px;
+ }
+.customer-feedback .feed-box .message .corner{
+     height: 40px;
+     width: 40px;
+     background-color: #f5f5f5;
+     position: absolute;
+     bottom: -16px;
+     left: 28px;
+     transform: rotate(45deg);
+
+}
+.customer-feedback .user img{
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.customer-feedback .user h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 25px;
+	color:#333333;
+	text-align: left;
+}
+.customer-feedback .user p{
+	font-family: 'Open Sans', sans-serif;
+    color: #8f9094;
+    text-align: left;
+}
+
+
+
+
+/*******************************
+ customer feedback section css end here
+********************************/
+
+
+/*******************************
+ astylish prototype section css start from  here
+********************************/
+.stylish-prototype{
+	background-image: url('../image/custom section.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.stylish-prototype h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	padding-top:60px;
+	
+}
+.stylish-prototype .line{
+	height: 2px;
+	width: 63px;
+	background-color:  #ffffff;
+	margin:25px auto;
+
+}
+.stylish-prototype p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #dedede;
+	padding: 10px 0px;
+}
+
+.stylish-prototype button{
+	color:white;
+    background-color:transparent;
+    border: 2px solid white;
+    padding: 8px 25px;
+    margin-top: 30px;
+    
+}
+/*******************************
+ stylish prototype section css end here
+********************************/
+
+
+
+
+/*******************************
+ contact us section css start from here
+********************************/
+.contact-us{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px 70px 0px;
+}
+.contact-us h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: #212121;
+	padding: 70px 0px 0px 0px;
+}
+.contact-us .line{
+	height: 2px;
+	width: 70px;
+	background-color:#ff8b38;
+	margin: 25px auto;
+}
+.contact-us p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #a9aaac;
+    margin-bottom: 70px;
+
+}
+
+.contact-us .left-box ul li{
+        list-style: none;
+        margin:30px 0px;
+}
+
+.contact-us .left-box ul li input{
+      border:none;
+      border-bottom: 2px solid #cfcfcf;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #cfcfcf;
+      padding-right: 200px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+}
+.contact-us .right-box .msgbox{
+	  border:none;
+      border-bottom: 2px solid #cfcfcf;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #cfcfcf;
+      padding-right: 200px;
+      padding-bottom: 140px;
+      padding-left: 10px;
+}
+
+.contact-us button{
+	color:white;
+    background-color:#ff8b38;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    
+
+}
+
+.contact-us input:focus{
+	outline: none;
+}
+
+button:focus{
+	outline: none;
+}
+.contact-us .right-box .msgbox:focus{
+	outline: none;
+}
+
+
+/*******************************
+ contact us  section css end here
+********************************/
+
+
+
+/*******************************
+ footer section css
+********************************/
+footer{
+	width:100%;
+	background-color: black;
+	padding: 40px 0px 25px 0px;
+	text-align: center;
+}
+footer .footer-icons ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+footer .footer-icons ul li i{
+	color:#cccccc;
+	padding:0px 15px;
+
+}
+footer p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #cccccc;
+}
